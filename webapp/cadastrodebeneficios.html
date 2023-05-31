@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta
+	name="description"
+	content="Página de Cadastro de Benefícios da Unipaulistana">
+<meta
+	name="keywords"
+	content="benefícios, Cadastro, Unipaulistana">
+<meta
+	name="author"
+	content="Jailson Costa dos Santos">
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<meta
+	http-equiv="X-UA-Compatible"
+	content="IE=Edge">
+<title>Cadastro de Benefícios</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="css/style04.css">
+</head>
+<body>
+	<div class="form-page">
+		<h1>Cadastro de Benefícios</h1>
+		<form
+			action="SalvaBeneficio"
+			method="post">
+			<label
+				for="nome"
+				class="etiqueta">Nome do Benefício :</label> <input
+				type="text"
+				id="nome"
+				name="nomebeneficio"
+				placeholder="Digite o nome do benefício"
+				required="required"> <br> <label
+				for="sigla"
+				class="etiqueta">Sigla:</label> <input
+				type="text"
+				id="sigla"
+				name="siglabeneficio"
+				placeholder="Digite a sigla do benefício"> <br> <br>
+				<label for ="tipobeneficio"  class="boxselect">Benefício :</label>
+			<select id="tipobeneficio" name="tipobeneficio" class="optionselect">
+			<option value="alimentacao">Alimentação</option>
+			<option value="educacao">Educação</option>
+			<option value="refeicao">Refeição</option>
+			<option value="saude">Saúde</option>
+			<option value="transporte">Transporte</option>
+			</select>
+			<br>
+				<label
+				for="descricaoDepartamento"
+				class="etiqueta">Descrição do Benefício:</label>
+			<textarea
+				id="descricaoBeneficio"
+				name="descricaobeneficio"
+				rows="4"
+				cols="70" placeholder="Descrição do Benefício:"></textarea>
+			<br>
+			<button type="submit">Cadastrar</button>
+		</form>
+		<form action="menuprincipal.html">
+    <button type="submit" />Voltar ao Menu</button>
+</form>
+	</div>
+</body>
+</html>

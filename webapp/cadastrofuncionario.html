@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta
+	name="description"
+	content="Página de Cadastro de Funcionários da Unipaulistana">
+<meta
+	name="keywords"
+	content="Funcionários, Cadastro, Unipaulistana">
+<meta
+	name="author"
+	content="Jailson Costa dos Santos">
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<meta
+	http-equiv="X-UA-Compatible"
+	content="IE=Edge">
+<title>Cadastro de Funcionário</title>
+<link rel="stylesheet" type="text/css" href="css/style04.css">
+</head>
+<body>
+	<div class="form-page">
+		<h1>Cadastro de Novos Funcionários</h1>
+		<form
+			action="CadastroFuncionario"
+			method="post">
+			<label for ="nome" class="etiqueta">Nome Completo :</label>
+			<input type="text" id="nome" name="nome" placeholder="Digite o seu nome completo" required="required">
+			<label for ="departamento"  class="boxselect">Departamento :</label>
+			<select id="departamento" name="departamento" class="optionselect">
+			<option value="estagiario">Fiscal</option>
+			<option value="programadorjunior">Financeiro</option>
+			<option value="programadorpleno">Projetos</option>
+			<option value="programadorsenior">Administrativo</option>
+			<option value="especialista">Recursos Humanos</option>
+			</select>
+			<br>
+			<label for ="cargo" class="boxselect">Cargo :</label>
+			<select id="cargo1" name="cargo" class="optionselect">
+			<option value="estagiario">Estágiário</option>
+			<option value="programadorjunior">Programador Júnior</option>
+			<option value="programadorpleno">Programador Pleno</option>
+			<option value="programadorsenior">Programador Sênior</option>
+			<option value="especialista">Especialista</option>
+			</select>
+			 <label for="email" class="etiqueta">E-mail:</label>
+           <input type="email" id="email" name="email" placeholder="Digite o e-mail">
+            <label for="telefone" class="etiqueta">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone">
+         <label for="data-nascimento" class="etiqueta">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="datanascimento">
+        <label for="endereco" class="etiqueta">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço">
+        <label for="cidade" class="etiqueta">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade">
+        <label for="estado" class="etiqueta">Estado:</label>
+        <input type="text" id="estado" name="estado" placeholder="Digite o estado">
+        <button type="submit">Cadastrar</button>
+			</form>
+	</div>
+</body>
+</html>

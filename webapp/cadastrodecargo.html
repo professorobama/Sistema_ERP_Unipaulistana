@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta
+	name="description"
+	content="Página de Cadastro de Cargos da Unipaulistana">
+<meta
+	name="keywords"
+	content="Cargo, Cadastro, Unipaulistana">
+<meta
+	name="author"
+	content="Jailson Costa dos Santos">
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<meta
+	http-equiv="X-UA-Compatible"
+	content="IE=Edge">
+<title>Cadastro de Cargo</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="css/style04.css">
+</head>
+<body>
+	<div class="form-page">
+		<h1>Cadastro de Cargo</h1>
+		<form
+			action="SalvaCargo"
+			method="post">
+			<label
+				for="nome"
+				class="etiqueta">Nome do Cargo :</label> <input
+				type="text"
+				id="nome"
+				name="nomedocargo"
+				placeholder="Digite o nome do cargo"
+				required="required"> <br>  <label
+				for="sigla"
+				class="etiqueta">Sigla:</label> <input
+				type="text"
+				id="sigla"
+				name="sigla"
+				placeholder="Digite a sigla do departamento" required="required">
+				 <br>  
+				 <label for ="instrucao"  class="boxselect">Instrução :</label>
+			<select id="instrucao" name="instrucao" class="optionselect">
+			<option value="estagiario">Não alfabetizado</option>
+			<option value="programadorjunior">Fundamental Incompleto</option>
+			<option value="programadorpleno">Fundamental Completo</option>
+			<option value="programadorsenior">Ensino Médio Incompleto</option>
+			<option value="especialista">Ensino Médio Completo</option>
+			</select>
+			<br><label
+				for="descricao"
+				class="etiqueta">Descrição do Cargo:</label><textarea id="descricaodocargo" name="descricaodocargo" rows="4" cols="68" placeholder="Descreva o cargo" required="required"></textarea>
+  <br>
+			<button type="submit">Cadastrar</button>
+		</form>
+		<form action="menuprincipal.html">
+    <button type="submit" />Voltar ao Menu</button>
+</form>
+	</div>
+</body>
+</html>

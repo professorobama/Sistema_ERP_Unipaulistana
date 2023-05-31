@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta
+	name="description"
+	content="Página de Cadastro de Departamentos da Unipaulistana">
+<meta
+	name="keywords"
+	content="Departamentos, Cadastro, Unipaulistana">
+<meta
+	name="author"
+	content="Jailson Costa dos Santos">
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<meta
+	http-equiv="X-UA-Compatible"
+	content="IE=Edge">
+<title>Cadastro de Departamento</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="css/style04.css">
+</head>
+<body>
+	<div class="form-page">
+		<h1>Cadastro de Departamento</h1>
+		<form
+			action="SalvaDepartamento"
+			method="post">
+			<label
+				for="nome"
+				class="etiqueta">Nome do Departamento :</label> <input
+				type="text"
+				id="nome"
+				name="nomedepartamento"
+				placeholder="Digite o nome do departamento"
+				required="required"> <br>  <label
+				for="sigla"
+				class="etiqueta">Sigla:</label> <input
+				type="text"
+				id="sigla"
+				name="sigla"
+				placeholder="Digite a sigla do departamento" required="required">
+				 <br>  <label
+				for="descricao"
+				class="etiqueta">Descrição do Departamento:</label><textarea id="descricaodepartamento" name="descricao" rows="4" cols="68" placeholder="Descreva o departamento" required="required"></textarea>
+  <br>
+			<button type="submit">Cadastrar</button>
+		</form>
+		<form action="menuprincipal.html">
+    <button type="submit" />Voltar ao Menu</button>
+</form>
+	</div>
+</body>
+</html>
