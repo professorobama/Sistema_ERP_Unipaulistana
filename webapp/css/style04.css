@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.form-page{
+	text-align: center;
+	padding-top: 50px;
+}
+h1{
+	font-size:37px;
+}
+form{
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+label{
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]{
+width: 100%;
+padding:10px;
+border: none;
+border-bottom: 1px solid #ccc;
+	}
+.boxselect{
+	width: 400px;
+	display:inline;
+	padding-right: 30px;
+	padding-top:20px;
+}
+#cargo1{
+width: 193px;	
+}
+button[type="submit"]{
+	
+	display:block;
+	margin:30px auto;
+	padding: 10px;
+	border:none;
+	background-color: #4caf50;
+	color:#fff;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+button[type="submit"] :hover {
+	background-color: #43a047;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.login-page{
+	background: url("../image/login.jpg") no-repeat;
+	height: 480px;
+	background-position: center;
+	background-size: 450px 300px;
+}
+.form{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	width: 300px;
+	background-color:#42919a;
+	padding-top: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+input{
+	border:none;
+	outline:none;
+	width: 100%;
+	margin-bottom:15px;
+	font-size:14px;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right: 20px;
+}
+.botao{
+	width: 100%;
+}
